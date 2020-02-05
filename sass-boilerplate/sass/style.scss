@@ -2,8 +2,9 @@
 
 /* variables  (not shown in css) - or from style to real code! */
 /* selected colors for this project */
-$green: #1cc867;
+$green: green;
 $white: #fff;
+$blue: black;
 
 /* nested syntax, how cool is that? */
 
@@ -11,15 +12,49 @@ $white: #fff;
 
 /* scss samples */
 body {
-    background-color: $green;
-    color: #00ff00;
+    background-color: $white;
+    color: $white;
 }
 
 /* nested syntax */
 main {
     p {
         color: $white;
+        
     }
+}
+.fo
+{
+    background-color: red;
+    width: 100%;
+    height: 400px;
+}
+
+.slide-left {
+	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ 
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
 }
 
 

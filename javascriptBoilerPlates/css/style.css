@@ -3,3 +3,21 @@
  * purpose: styles, animation etc
  * further development: meyer reset perhaps?
  **/
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 23px;
+    float: left;
+    clear: both;
+    border: 5px dotted green;
+}
+
+body
+{
+    margin: 0px;
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    
+}
